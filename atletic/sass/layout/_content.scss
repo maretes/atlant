@@ -1,0 +1,29 @@
+@import "../components/mixin";
+
+body, html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+:focus {
+  outline: none;
+}
+
+:link,
+:visited {
+  text-decoration: none;
+}
+
+:link:hover,
+:visited:hover {
+}
+
+.container-elastic {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}

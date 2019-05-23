@@ -1,0 +1,33 @@
+/*!
+Theme Name: atletic
+Author:Ivan_Kolomiiets
+Description:......
+Text Domain: atletic
+Tags:
+*/
+
+/* ------------------------- Section: Susy settings -------------------------- */
+//@import "layout/grids";
+
+/* ------------------------- Section: Reset ---------------------------------- */
+@import "compass/reset";
+
+/* ------------------------- Part: Content ----------------------------------- */
+@import "layout/content",
+
+        "layout/header",
+        /* ----------------- Section: Navigation ----------------------------- */
+        "layout/navigation",
+
+        /* ----------------- Section: Footer --------------------------------- */
+        "layout/footer",
+
+        /* ----------------- Sidebar ----------------------------------------- */
+        "layout/sidebar";
+
+/* ------------------------- Page ------------------------------ */
+@import "pages/page-home";
+
+
+/* ------------------------- Part: Single ------------------------------------ */
+@import "layout/single";

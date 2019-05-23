@@ -1,0 +1,43 @@
+@import "../components/mixin";
+footer{
+  background: #313131;
+  padding: 30px 5px;
+}
+.footer{
+  &_block{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    flex-wrap: wrap;
+    &_text{
+      text-align: center;
+     p{
+       padding: 5px 0;
+       font-family: Times;
+       font-size: 17px;
+       line-height: 20px;
+       text-align: center;
+       color: #FFFFFF;
+       margin-left: 10px;
+      }
+      &_phone{
+        display: flex;
+        justify-content: center;
+      }
+    }
+    &_contacts{
+      text-align: center;
+      ul{
+        display: flex;
+        justify-content: center;
+      }
+    }
+    &_logo{
+      text-align: center;
+      img{
+        width: 50%;
+      }
+    }
+
+  }
+}
